@@ -22,7 +22,9 @@ jobs:
           echo "INFO Test 1 passed"
           echo "INFO Test 2 passed"
           echo "INFO Test 3 passed"
-          echo "INFO Unit tests completed successfully"
+          echo "INFO DOCKER FAILURE EXPERIMENT"
+docker run --name cloudops-ai-test-container   definitely-nonexistent-docker-image-devops-ai-test-987654321:latest
+echo "INFO Deployment validation completed"
           echo "INFO Deployment validation completed"
 
 
