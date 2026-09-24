@@ -23,6 +23,8 @@ jobs:
           echo "INFO Test 2 passed"
           echo "INFO Test 3 passed"
           echo "INFO Unit tests completed successfully"
+          echo "INFO BUILD FAILURE EXPERIMENT"
+          python -c "def broken_function("
           echo "INFO Deployment validation completed"
 
 
