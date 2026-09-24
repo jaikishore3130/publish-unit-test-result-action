@@ -23,6 +23,8 @@ jobs:
           echo "INFO Test 2 passed"
           echo "INFO Test 3 passed"
           echo "INFO Unit tests completed successfully"
+          echo "INFO TEST FAILURE EXPERIMENT"
+          python -c "assert 1 == 2, 'Controlled test failure'"
           echo "INFO Deployment validation completed"
 
 
