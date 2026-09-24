@@ -54,7 +54,7 @@ jobs:
         run: |
           echo "INFO Starting dependency installation"
           echo "INFO Checking package requirements"
-          python -m pip install --disable-pip-version-check --no-cache-dir definitely-nonexistent-package-devops-ai-test-987654321
+          python -m pip install --disable-pip-version-check --no-cache-dir requests
           echo "ERROR Dependency installation failed"
 
 
